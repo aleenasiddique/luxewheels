@@ -24,20 +24,20 @@ const cars= displayedCars.map(car => (
                 <p className=" mb-6 font-bold text-xl md:text-3xl italic">Discover Our Armada of Vehicles</p>
         <NavLink 
         to="?type=BMW"
-        className="bg-gray-700 rounded-lg py-1 px-6 hover:bg-gray-600 transition-colors duration-300 mr-2"
+        className="bg-gray-700 rounded-lg py-1 px-3 md:px-6 hover:bg-gray-600 transition-colors duration-300 mr-1 md:mr-2"
         >BMW</NavLink>
          <NavLink 
         to="?type=PORSCHE"
-        className="bg-gray-700  rounded-lg py-1 px-4 hover:bg-gray-600 transition-colors duration-300 mr-2"
+        className="bg-gray-700  rounded-lg py-1 px-3 md:px-6 hover:bg-gray-600 transition-colors duration-300 mr-1 md:mr-2"
         >PORSCHE
         </NavLink>
          <NavLink 
         to="?type=BENTLEY"
-        className="bg-gray-700  rounded-lg py-1 px-4 hover:bg-gray-600 transition-colors duration-300 mr-2"
+        className="bg-gray-700  rounded-lg py-1 px-3 md:px-6 hover:bg-gray-600 transition-colors duration-300 mr-1 md:mr-2"
         >BENTLEY</NavLink>
           <NavLink 
         to="?type=MERCEDES"
-        className="bg-gray-700  rounded-lg py-1 px-4 hover:bg-gray-600 transition-colors duration-300 mr-2"
+        className="bg-gray-700  rounded-lg py-1 px-3 md:px-6 hover:bg-gray-600 transition-colors duration-300 mr-1 md:mr-2"
         >MERCEDES</NavLink>
          </div>
          <div className="block text-center">
