@@ -14,10 +14,10 @@ export default function Home(){
     return (
         <div className="text-zinc-200"> 
          <div className=" flex flex-col items-center justify-center h-[calc(100vh-160px)] min-h-[400px]  bg-cover bg-center bg-fixed" style={{backgroundImage: `url(${heroImage})`}}> 
-         <p className=" md:text-4xl font-bold font-dancing-script mb-1 text-xl">
+         <p className=" md:text-4xl font-bold font-dancing-script mb-1 text-lg">
            Every Mile is an Affair of Style and Sophistication
            </p>
-           <p className=" md:text-2xl md:font-semibold mb-4 text-sm italic whitespace-nowrap">
+           <p className=" md:text-2xl md:font-semibold mb-4 text-xs italic whitespace-nowrap">
            Elevate Your Journey with Our Exquisite Collection of Prestige Cars
            </p>
            <NavLink
@@ -33,16 +33,16 @@ export default function Home(){
         <div className="block mx-8">
         <div className="mt-8 flex gap-4 w-full pb-5 snap-x overflow-x-auto  scroll-smooth">
           <div className="min-w-[80%] md:min-w-[35%] ">
-              <img src={bmwImage} className="h-80 w-full snap-center rounded-xl" alt="cars"/>
+              <img src={bmwImage} className="h-60 md:h-80 w-full snap-center rounded-xl" alt="cars"/>
           </div>
           <div className="min-w-[80%] md:min-w-[35%] ">
-              <img src={bentleyImage} className="h-80 w-full snap-center rounded-xl" alt="cars"/>
+              <img src={bentleyImage} className="h-60 md:h-80 w-full snap-center rounded-xl" alt="cars"/>
           </div>
           <div className="min-w-[80%] md:min-w-[35%] ">
-              <img src={audiImage} className="h-80 w-full snap-center rounded-xl" alt="cars"/>
+              <img src={audiImage} className="h-60 md:h-80 w-full snap-center rounded-xl" alt="cars"/>
           </div>
           <div className="min-w-[80%] md:min-w-[35%] ">
-              <img src={mercedesImage} className="h-80 w-full snap-center rounded-xl bg-center" alt="cars"/>
+              <img src={mercedesImage} className="h-60 md:h-80 w-full snap-center rounded-xl bg-center" alt="cars"/>
           </div>
     </div>
     </div>

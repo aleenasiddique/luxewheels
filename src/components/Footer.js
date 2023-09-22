@@ -11,7 +11,7 @@ export default function Footer(){
             <div className="flex justify-between">
             <div className="w-[180px] md:w-[280px] h-[170px] md:h-[210px]">
                 <p className="font-dancing-script text-xl md:text-3xl">LuxeWheels</p>
-                <p className="mt-2 text-sm md:text-base "> Every Mile is an Affair of Style and Sophistication.Elevate Your Journey with Our Exquisite Collection of Prestige Cars.</p>
+                <p className="mt-2 text-xs md:text-base "> Every Mile is an Affair of Style and Sophistication.Elevate Your Journey with Our Exquisite Collection of Prestige Cars.</p>
             </div>
             <div className="hidden md:flex flex-col">
                 <p className="text-xl">Available Cars</p>
@@ -23,6 +23,7 @@ export default function Footer(){
             <div className="flex flex-col">
                 <p className="text-lg md:text-xl">Contact</p>
                 <div className="mt-2 text-xs md:text-base">
+                    <div>
                 <i className="">{<FontAwesomeIcon  icon={faHome}/>}</i> <p className="inline-block">NewYork, NY 10012, US</p>
                 </div>
                 <div>
@@ -36,8 +37,9 @@ export default function Footer(){
                 </div>
             </div>
             </div>
+            </div>
             <hr/>    
-           <p className="text-zinc-200 mt-5 text-center text-lg md:text-2xl italic mb-2">LuxeWheels &#169; All Rights Reserved &#47;2023 </p>
+           <p className="text-zinc-200 mt-5 text-center text-lg md:text-2xl italic mb-4">LuxeWheels &#169; All Rights Reserved &#47;2023 </p>
         </footer>
     ) 
 } 
