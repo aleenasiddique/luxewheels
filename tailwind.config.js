@@ -5,8 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'text-color': '#e45250',
+        'bg-color': '#FDFDFD'
+      },
       fontFamily: {
         'dancing-script': ['Dancing Script', 'cursive'],
+        'heading-font': ['Yeseva One', 'serif']
       }, 
       height: {
         'hero': '600px', 
