@@ -72,7 +72,7 @@ export default function Home(){
            <div className=" bg-bg-color md:bg-white md:rounded-[32px]  shadow-lg shadow-black/20 text-black py-2 md:py-6  w-full  ">
            { !carForm && <form className="flex justify-evenly flex-wrap">
               <div className="flex flex-col">
-              <lable for="cartype" className="font-bold my-3 "><i className="mr-2"><FontAwesomeIcon icon={faCar} /></i>Select Your Drive<span className="text-text-color">&#x2a;</span> </lable>
+              <label for="cartype" className="font-bold my-3 "><i className="mr-2"><FontAwesomeIcon icon={faCar} /></i>Select Your Drive<span className="text-text-color">&#x2a;</span> </label>
               <select id="cartype" required onChange={handleValueChange}
               className="h-10 w-[250px] md:w-[270px] border border-gray-300 px-1 text-gray-500 focus:outline-none text-sm">
                 <option value="">Select a Car</option>
@@ -87,7 +87,7 @@ export default function Home(){
               </select>
               </div>
               <div className="flex flex-col">
-              <lable for="pickup" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faLocationDot} /></i>Pick-up Location<span className="text-text-color">&#x2a;</span> </lable>
+              <label for="pickup" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faLocationDot} /></i>Pick-up Location<span className="text-text-color">&#x2a;</span> </label>
               <select id="pickup" required className="h-10 w-[250px] md:w-[270px] border border-gray-300 px-1 text-gray-500 focus:outline-none text-sm mb-2" >
                 <option value="select">Select a Pick-up Location</option>
                 <option>New York</option>
@@ -98,7 +98,7 @@ export default function Home(){
               </select>
               </div>
               <div className="flex flex-col">
-              <lable for="pickup" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faLocationDot} /></i>Drop-of Location<span className="text-text-color">&#x2a;</span> </lable>
+              <label for="pickup" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faLocationDot} /></i>Drop-of Location<span className="text-text-color">&#x2a;</span> </label>
               <select id="pickup" required className="h-10 w-[250px] md:w-[270px] border border-gray-300 px-1 text-gray-500 focus:outline-none text-sm mb-2">
                 <option value="">Select a Drop-of Location</option>
                 <option>New York</option>
@@ -109,11 +109,11 @@ export default function Home(){
               </select>
               </div>
               <div className="flex flex-col">
-              <lable for="pickupDate" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faCalendar} /></i>Pick-up Date<span className="text-text-color">&#x2a;</span> </lable>
+              <label for="pickupDate" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faCalendar} /></i>Pick-up Date<span className="text-text-color">&#x2a;</span> </label>
               <input required type="date" id="pickupDate"className="h-10 w-[250px] md:w-[270px] border border-gray-300 text-sm px-1 mb-2 text-gray-500" />
               </div>
               <div className="flex flex-col">
-              <lable for="dropofDate" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faCalendar} /></i>Drop-of Date<span className="text-text-color">&#x2a;</span> </lable>
+              <label for="dropofDate" className="font-bold my-3"><i className="mr-2"><FontAwesomeIcon icon={faCalendar} /></i>Drop-of Date<span className="text-text-color">&#x2a;</span> </label>
               <input required type="date" id="dropofDate"className="h-10 w-[250px] md:w-[270px] border border-gray-300 text-sm px-1 mb-2 text-gray-500" />
               </div>
               <input type="submit" value="Search" onClick={handleForm}
